@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<center>
+        {% for chr in c %}
+        <h1>{{chr}}</h1>
+        {% endfor %}
+        {% for chr in e %}
+        <h1>{{chr}}</h1>
+        {% endfor %}
+        <h1><a href="{% url 'hello'%}">Navigate to hello page</a></h1>
+    </center>
+</body>
+</html>
